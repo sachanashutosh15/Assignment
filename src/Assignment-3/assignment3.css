@@ -2,6 +2,65 @@
 
 
 .container, .content {
-width: 100%;
-height: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+.subcontainer {
+	width: 100%;
+	background-color: #F2F2F2;
+	border: 1px silver solid;
+	margin: 20px;
+}
+
+#description1 {
+	width: 41%;
+	display: inline-block;
+	margin: 2%;
+	text-align: center;
+	padding: 2%;
+	position: relative;
+	bottom: 150px;
+}
+
+button {
+	background-color: black;
+	color: white;
+	border: 2px black solid;
+	border-radius: 5%;
+	padding: 10px;
+	margin: 1%;
+}
+
+#render-wiki {
+	width: 45%;
+	height: 500px;
+	border: 1px silver solid;
+	display: inline-block;
+	margin: 2%;
+}
+
+#subcontainer2 {
+	text-align: center;
+}
+
+#description2 {
+	display: block;
+	height: 50%;
+	width: 100%;
+	margin: auto;
+}
+
+#render-dictionary {
+	display: block;
+	height: 50%;
+	width: 100%;
+	border: 1px silver solid;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
 }
